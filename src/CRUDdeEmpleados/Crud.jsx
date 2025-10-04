@@ -8,7 +8,7 @@ function filtrarPorPuesto(empleados, puesto) {
   );
 }
 
-const CRUD = () => {
+const Crud = () => {
   const [empleados, setEmpleados] = useState([]);
   const [form, setForm] = useState(initialForm);
   const [editIndex, setEditIndex] = useState(null);
@@ -181,4 +181,4 @@ const CRUD = () => {
   );
 };
 
-export default CRUD;
+export default Crud;

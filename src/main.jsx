@@ -6,6 +6,8 @@ import Navbar from './Navbar/Navbar.jsx';
 import Carrusel from './Carrusel/Carrusel.jsx';
 import Crud from './CRUDdeEmpleados/CRUD.jsx';
 
+
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Navbar />
