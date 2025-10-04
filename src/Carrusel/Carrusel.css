@@ -1,0 +1,38 @@
+.carrusel {
+  text-align: center;
+  margin: 32px 0;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  padding: 24px 0;
+}
+.carrusel img {
+  width: 320px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 0 16px;
+}
+.carrusel button {
+  background: #282c34;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.carrusel button:hover {
+  background: #1976d2;
+}
+.carrusel-indicators {
+  margin-top: 12px;
+}
+.carrusel-indicators span {
+  margin: 0 4px;
+  font-size: 22px;
+  color: #bbb;
+}
+.carrusel-indicators .active {
+  color: #282c34;
+}
